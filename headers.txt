@@ -1,0 +1,24 @@
+Request Headers:
+    - User-Agent: The application that is sending the request.
+    - Accept: The type of data that will be accepted in response.
+    - Postman-Token: A randomized token to distinguish requests.
+    - Host: The domain name of the server being sent the request.
+    - Accept-Encoding: The encoding that the response should use.
+    - Connection: Whether the connection should be kept open after the transaction is finished.
+
+Response Headers:
+    - Content-Type: The type of resource in the response.
+    - Vary: Ensure the responses are cached based on headers in the vary field.
+    - Content-Encoding: The compression algorithm used on the content.
+    - Date: The timestamp (date and time of) when the response was sent.
+    - Server: The server that generated the response.
+    - X-XSS-Protection: Used to prevent cross-site scripting attacks.
+    - X-Frame-Options: Indicate if a browser is allowed to render a page in a frame to avoid clickjacking attacks.
+    - X-Content-Type-Options: Indicates if the media ttypes in the response should be unaltered.
+    - Alt-Svc: Used by server to indicate another network location for future requests.
+    - Transfer-Encoding: Form of encoding used to transfer messages between network nodes. Generally used to break up response into chunks.
+
+Sources Used:
+    - MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+    - Postman Docs: https://learning.postman.com/docs/getting-started/installation/settings/
+    - HTTP Lecture: https://olucdenver-my.sharepoint.com/:v:/g/personal/shawn_mccarthy_ucdenver_edu/EeeQO50ektZCuzN0rZ_k4lgBfadHSHl78PWAgw4zzUvFHQ?e=r1uq5r&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
